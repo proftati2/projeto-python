@@ -1,0 +1,54 @@
+#Correção Exercícios - Python Input
+
+#1
+nome = input('Qual é o seu nome?')
+ano = int(input('Qual é o ano do seu nascimento?'))
+idade = 2023 - ano
+
+print(f'Olá {nome}! Você é de {ano} e sua idade é {idade} anos.')
+
+
+#2
+refri = input('Qual o refrigerante preferido do grupo Coca-Cola?')
+
+print(f'A sua marca de refrigerante favorito é {refri}')
+
+
+#3
+dolar = float(input('Qual o valor em dólares que você deseja converter?'))
+conversao = dolar*4.86
+
+print(f'S{dolar} dólares equivalem a R$ {conversao} reais')
+
+
+#4
+n = int(input('Digite um número para ver a sua tabuada'))
+
+print(f'{n} x 0 = {n*0}')
+print(f'{n} x 1 = {n*1}')
+print(f'{n} x 2 = {n*2}')
+print(f'{n} x 3 = {n*3}')
+print(f'{n} x 4 = {n*4}')
+print(f'{n} x 5 = {n*5}')
+print(f'{n} x 6 = {n*6}')
+print(f'{n} x 7 = {n*7}')
+print(f'{n} x 8 = {n*8}')
+print(f'{n} x 9 = {n*9}')
+print(f'{n} x 10 = {n*10}')
+
+
+#5
+metro = float(input('Qual valor em metros que deseja converter?'))
+conversao = metro*100
+
+print(f'{metro} m equilavem {conversao} cm')
+
+
+#6
+n1 = float(input('Qual é a nota do 1º Bimestre?'))
+n2 = float(input('Qual é a nota do 2º Bimestre?'))
+n3 = float(input('Qual é a nota do 3º Bimestre?'))
+n4 = float(input('Qual é a nota do 4º Bimestre?'))
+media = (n1 + n2 + n3 + n4)/4
+
+print(f'A média das notas bimestrais é {media}')
